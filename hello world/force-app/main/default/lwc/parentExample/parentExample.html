@@ -1,0 +1,15 @@
+<template>
+  <lightning-card title="Example of Parent and child Components">
+    <h1>This is From Parent Component</h1>
+    <c-child-example class-name="Red"></c-child-example>
+    <c-child-example class-name="Green"></c-child-example>
+      
+      <input id="percentage" name="percentage" value={percentage} min="0" max="100"
+      onkeyup={setvalue} 
+      ></input>
+      <c-second-more-child-component percentage={percentage}></c-second-more-child-component>
+      <c-extra-childcompoinent details={userDetails} ></c-extra-childcompoinent>
+       <button onclick={changeColor}> Click me to invoke child method from parent component</button>
+       <c-extra-childcompoinent></c-extra-childcompoinent>
+  </lightning-card>  
+</template>

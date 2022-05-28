@@ -1,0 +1,12 @@
+<template>
+    <template if:true={trains.Trains_Schedule__r}>
+    <template for:each={trains.Trains_Schedule__r} for:item="data">
+      
+        <div key={data.Id}>
+            
+             <img src={trainimage} style="height:200px;width:85vw;">
+         </div>
+        </template>
+    </template>
+
+</template>

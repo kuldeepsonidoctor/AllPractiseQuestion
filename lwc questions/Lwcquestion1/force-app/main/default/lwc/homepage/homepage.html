@@ -1,0 +1,125 @@
+<template>
+    <div class="slds-m-bottom_medium">
+        <lightning-button label="Add Property" title="Non-primary action" onclick={addProperty}
+            class="slds-m-left_x-small"></lightning-button>
+    </div>
+    <div>
+        <table class="slds-table slds-table_cell-buffer slds-table_bordered"
+            aria-label="Example default base table of Opportunities">
+            <tbody>
+                <template if:true={myProperty.data}>
+                    <template for:each={myProperty.data} for:item="myData">
+                        <tr class="slds-hint-parent" key={myData.ID}>
+                            <td data-label="Account Name">
+                                <div class="slds-truncate" title="Cloudhub">
+                                    <img src={myData.Property_Image__c} style="width:20px;height:20px">
+                                </div>
+                            </td>
+
+                            <td data-label="Prospecting">
+                                <div class="slds-truncate" title="Prospecting">{myData.Address__c}</div>
+                            </td>
+                            <td data-label="Confidence">
+                                <div class="slds-truncate" title="20%">{myData.Name}</div>
+                            </td>
+
+                            <td>
+                                <lightning-button data-item={myData.Id} variant="success" label="Add Contact"
+                                    title="Successful action" onclick={addContact} class="slds-m-left_x-small">
+                                </lightning-button>
+                                <lightning-button data-item={myData.Id} variant="success" label="View Contact"
+                                    title="Successful action" onclick={viewContact} class="slds-m-left_x-small">
+                                </lightning-button>
+                            </td>
+                        </tr>
+                    </template>
+                </template>
+            </tbody>
+        </table>
+    </div>
+    <template if:true={viewSection}>
+        <section role="dialog" tabindex="-1" aria-label="Meaningful description of the modal content" aria-modal="true"
+            class="slds-modal slds-fade-in-open">
+            <div class="slds-modal__container">
+                <div class="slds-modal__content slds-p-around_medium slds-modal__content_headless"
+                    id="modal-content-id-2">
+
+                    <template if:true={addPro}>
+
+                        <div style="display:grid;width:60vw;height:80vh;">
+                            <lightning-input label="Enter Property Name" name="Name" value={Fields.Name}
+                                onchange={handleChange} autocomplete="off"></lightning-input>
+                            <lightning-input label="Enter Address" name="Address" value={Fields.Address}
+                                onchange={handleChange} autocomplete="off"></lightning-input>
+
+                            <lightning-input label="Enter Property Image" name="URL" value={Fields.URL}
+                                onchange={handleChange} autocomplete="off"></lightning-input>
+
+                            <lightning-button variant="success" label="Create Property" title="Successful action"
+                                onclick={handleClick} class="slds-m-left_x-small"></lightning-button>
+
+                            <lightning-button variant="success" label="Back" title="Successful action" onclick={Back}
+                                class="slds-m-left_x-small"></lightning-button>
+
+                        </div>
+                    </template>
+                    <template if:true={addCon}>
+                        <div style="display:grid;width:60vw;height:80vh;">
+                            <lightning-input label="First Name" name="FName" value={conFields.FName}
+                                onchange={handleContactFields} autocomplete="off"></lightning-input>
+                            <lightning-input label="Last Name" name="Lname" value={conFields.Lname}
+                                onchange={handleContactFields} autocomplete="off"></lightning-input>
+
+                            <lightning-input label="Enter Contact Image" name="Image" value={conFields.Image}
+                                onchange={handleContactFields} autocomplete="off"></lightning-input>
+
+                            <lightning-button variant="success" label="Create Contact" title="Successful action"
+                                onclick={handlecontact} class="slds-m-left_x-small"></lightning-button>
+
+                            <lightning-button variant="success" label="Back" title="Successful action" onclick={Back}
+                                class="slds-m-left_x-small"></lightning-button>
+
+                        </div>
+                    </template>
+                    <template if:true={viewCon}>
+                        <table class="slds-table slds-table_cell-buffer slds-table_bordered"
+                            aria-label="Example default base table of Opportunities">
+                            <tbody>
+                                <template if:true={propertyContacts}>
+                                    <template for:each={propertyContacts} for:item="myData">
+                                        <tr class="slds-hint-parent" key={myData.ID}>
+                                            <td data-label="Account Name">
+                                                <div class="slds-truncate" title="Cloudhub">
+                                                    <img src={myData.Contact_Image__c} style="height:12px;width:15px;">
+                                                </div>
+                                            </td>
+                                            <td data-label="Close Date">
+                                                <div class="slds-truncate" title="4/14/2015">{myData.LastName}</div>
+                                            </td>
+                                            <td data-label="Prospecting">
+                                                <div class="slds-truncate" title="Prospecting">{myData.FirstName}
+                                                </div>
+                                            </td>
+
+                                        </tr>
+                                    </template>
+
+                                </template>
+                            </tbody>
+                        </table>
+                        <lightning-button variant="success" label="Back" title="Successful action" onclick={Back}
+                            class="slds-m-left_x-small"></lightning-button>
+                    </template>
+
+                </div>
+
+
+
+
+            </div>
+        </section>
+        <div class="slds-backdrop slds-backdrop_open" role="presentation"></div>
+    </template>
+
+
+</template>

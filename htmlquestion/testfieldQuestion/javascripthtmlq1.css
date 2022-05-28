@@ -1,0 +1,29 @@
+*{
+margin: 0;
+padding: 0;
+}
+body{
+    background-color: black;
+}
+.container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 5px;
+}
+.showsdata{
+    background-color: white;
+    width: 297px;
+    height: 190px;
+}
+.table{
+    background-color: white;
+    border: 1px solid red;
+    display: inline-block;
+    margin: 20px;
+}
+table, th, td {
+    border: 1px solid black;
+  }
+ 
+

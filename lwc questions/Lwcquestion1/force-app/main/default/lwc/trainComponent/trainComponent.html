@@ -1,0 +1,42 @@
+<template>
+    
+    <div class="slds-grid slds-gutters">
+        <div class="slds-col slds-col slds-size_2-of-3">
+          <span>
+              <img src={watch}>
+              <div>
+              
+                <lightning-input type="time" name="input1" label="Enter a time" onchange={timeee}></lightning-input>
+              <button onclick={showData}>Get Information</button>
+            </div>
+          </span>
+        </div>
+        <div class="slds-col slds-m-left_large">
+          <span>
+            <img src={master}>
+          </span>
+        </div>
+       </div>
+
+ 
+       <template if:true={allTrainData}>
+           <template for:each={allTrainData} for:item="data">
+               <div key={data.Id}>
+       <div style="background-color:blue;width: 85vw;
+       height: 51px;" ></div>
+       
+       <c-total-trains trains={data} trainimage={train}></c-total-trains>
+      
+       <div>
+         
+           <c-total-trac tracks={data} trackimage={track}></c-total-trac>
+       
+       </div>
+    </div>
+    </template>
+    </template>
+      
+
+   
+
+</template>

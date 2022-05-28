@@ -1,0 +1,13 @@
+<template>
+   <button onclick={buttonHandler}>Get All The Accounts Records</button>
+   <template if:true={accounts}>
+       <template for:each={accounts} for:item="data" >
+           <p key={data.id}>
+               {data.Name}
+           </p>
+
+       </template>
+   </template>
+   <strong>Here is the Data= {name}</strong>
+
+</template> 

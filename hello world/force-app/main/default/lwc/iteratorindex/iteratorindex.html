@@ -1,0 +1,14 @@
+<template>
+   <lightning-card title="Run The Code">
+       <ul style="font-weight: bolder;">
+         <template iterator:ceo={ceolist}>
+             <div key={ceo.value.id}>
+                 <div if:true={ceo.first} style="font-weight: bolder;color: red; font-size: larger;">First</div>
+                 <strong>{ceo.value.name}</strong>
+                 <div if:true={ceo.last} style="font-weight: bolder;color: red;font-size: larger;">last</div>
+             </div>
+         </template>
+       </ul> 
+    
+   </lightning-card> 
+</template>

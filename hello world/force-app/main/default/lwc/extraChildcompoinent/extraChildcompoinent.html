@@ -1,0 +1,26 @@
+<template>
+    <lightning-card title="arrayOfObjects">
+        <table>
+            <tr>
+                <td>
+                    Name
+                </td>
+                <td>
+                    Age
+                </td>
+            </tr>
+
+            <template for:each={details} for:item="user">
+                <tr key={user.name}>
+                    <td>
+                        {user.name}
+                    </td>
+                    <td>
+                        {user.age}
+                    </td>
+                </tr>
+            </template>
+        </table>
+        <div class={className}>My Color</div>
+    </lightning-card>
+</template>

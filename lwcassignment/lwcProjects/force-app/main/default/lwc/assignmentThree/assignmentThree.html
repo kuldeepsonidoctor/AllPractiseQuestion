@@ -1,0 +1,16 @@
+<template>
+    <lightning-combobox name="StageName" label="Stage" value={Fields.StageName} placeholder="Select Stage"
+        options={options} onchange={handleChange}></lightning-combobox>
+    <div style="display:grid;width:60vw;height:80vh;">
+        <lightning-input label="Enter Account Name" name="Name" value={Fields.Name} onchange={handleChange}
+            autocomplete="off"></lightning-input>
+        <lightning-input label="Enter Amount" name="Amount" value={Fields.Amount} onchange={handleChange}
+            autocomplete="off"></lightning-input>
+
+        <lightning-input type="date" style="z-index:999;" label="Enter Date" name="ClosedDate" value={Fields.CloseDate}
+            onchange={handleChange} autocomplete="off"></lightning-input>
+
+        <lightning-button variant="success" label="Create Record" value={Fields.ClosedDate} title="Successful action"
+            onclick={handleClick} class="slds-m-left_x-small"></lightning-button>
+    </div>
+</template>

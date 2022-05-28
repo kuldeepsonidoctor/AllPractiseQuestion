@@ -1,0 +1,54 @@
+<template>
+  <div class="slds-m-top_none">
+      <table>
+          <thead>
+              <th>Name</th>
+              <th>Phone</th>
+              <th>Rating</th>
+          </thead>
+      <tbody>
+      <template for:each={accountData} for:item="acc">
+       <tr key={acc.Id}>
+           <td>{acc.Name}</td>
+           <td>{acc.Phone}</td>
+           <td>{acc.Rating}</td>
+       </tr>
+      </template>
+    </tbody>
+    </table>
+  </div>
+  <div class="slds-m-top_x-large">
+    <table class="slds-table slds-table_cell-buffer slds-table_bordered" aria-labelledby="element-with-table-label other-element-with-table-label">
+        <thead>
+          <tr class="slds-line-height_reset">
+            <th class="" scope="col">
+              <div class="slds-truncate" title="Opportunity Name">Account Name</div>
+            </th>
+            <th class="" scope="col">
+              <div class="slds-truncate" title="Account Name">Phone</div>
+            </th>
+            <th class="" scope="col">
+              <div class="slds-truncate" title="Close Date">Rating</div>
+            </th>
+            </tr>
+        </thead>
+        <tbody>
+            <template for:each={accountData} for:item="acc">
+          <tr class="slds-hint-parent" key={acc.Id}>
+            <th data-label="Account Name" scope="row">
+              <div class="slds-truncate" title={acc.Name}>
+                <a href="#" tabindex="-1">{acc.Name}</a>
+              </div>
+            </th>
+            <td data-label="Phone">
+              <div class="slds-truncate" title={acc.Phone}>{acc.Phone}</div>
+            </td>
+            <td data-label="Rating">
+              <div class="slds-truncate" title={acc.Rating}>{acc.Rating}</div>
+            </td>
+            </tr>
+        </template>
+        </tbody>
+      </table>
+  </div>
+</template>

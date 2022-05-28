@@ -1,0 +1,33 @@
+<template>
+    <table>
+        <thead>
+            <tr>
+            <th>
+
+                Account Id
+            </th>
+
+            <th>
+                Account Name
+            </th>
+            <th>
+                Type
+            </th>
+            <th>
+                Phone
+            </th>
+        </tr>
+        </thead>
+        <tbody>
+            <template for:each={accList} for:item="acc">
+            <tr key={acc.id}>
+                <td>{acc.id}</td>
+                <td>{acc.fields.Name.value}</td>
+                <td>{acc.fields.Type.value}</td>
+             
+
+            </tr>
+        </template>
+        </tbody> 
+    </table>
+</template>

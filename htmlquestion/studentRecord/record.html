@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="record.css">
+  
+</head>
+
+<body>
+    <div class="filterbutton">
+        <button>Filter</button>
+    </div>
+    <div class="container">
+        <div class="data">
+            <table>
+                <thead>
+                    
+                    <td>SL.NO</td>  
+                    <td>Name</td>
+                    <td>Percentage</td>
+                    <td>Image</td>
+                   
+                </thead>
+                <tbody id="stddata">
+                   
+                </tbody>
+               
+            </table>
+        </div>
+        <div class="form">
+            
+                <input type="text" name="name" id="name" placeholder="Enter Your Name">
+                <input type="text" name="class" id="class" placeholder="Enter Your Class">
+                <input type="text" name="Marks" id="Marks" placeholder="Enter Your Marks">
+                <input type="file" name="fileToUpload" id="fileToUpload">
+                <button type="submit" onclick="storeData()">Submit</button>
+            
+        </div>
+        <div class="filter">
+            <input type="checkbox" id="gold" name="marksfilter" value="green">
+            <label for="gold"> Gold 75+%</label><br>
+            <input type="checkbox" id="silver" name="marksfilter" value="blue">
+            <label for="silver">Silver 41%-75%</label><br>
+            <input type="checkbox" id="bronge" name="marksfilter"  value="red"></label>
+            <label for="bronge">Bronze 0%-40%</label><br>
+            <div class="fontcolor">
+                <input type="text" name="fontcolor" id="fontcolor" placeholder="Enter the font color for the filtered records">
+                <div class="warning">
+                    *Font colors can be While ,Yellow,Black,Gray
+                </div>
+            </div>
+            <input type="button" value="Submit" onclick="filterrecords()">
+          
+        </div>
+
+    </div>
+</body>
+<script src="record.js"></script>
+</html>

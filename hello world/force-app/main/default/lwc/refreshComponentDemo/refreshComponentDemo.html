@@ -1,0 +1,12 @@
+<template>
+    <!-- {isContactAvailable } -->
+    <lightning-card title="Get The Data">
+       <lightning-datatable
+       key-field="Id"
+       data={contact.data}
+       columns={col}
+       onsave={handleSave}
+       data-values={draftValues}
+       ></lightning-datatable>
+    </lightning-card>
+</template>

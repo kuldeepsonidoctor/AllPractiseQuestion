@@ -1,0 +1,9 @@
+<template>
+    <lightning-card title="Create Account Record">
+        <lightning-input label="Enter Your Name" name="Name" value={FormFields.Name} onchange={changeHadler}></lightning-input>
+        <lightning-input label="Enter Your Phone Number" name="Phone" value={FormFields.Phone} onchange={changeHadler}></lightning-input>
+        <lightning-input label="Enter Your Industry" name="Industry" value={FormFields.Industry} onchange={changeHadler}></lightning-input>
+        <lightning-input label="Enter Type" name="Type" value={FormFields.Type} onchange={changeHadler}></lightning-input>
+        <button onclick={handleSave}> Create Record</button>
+    </lightning-card>
+</template>

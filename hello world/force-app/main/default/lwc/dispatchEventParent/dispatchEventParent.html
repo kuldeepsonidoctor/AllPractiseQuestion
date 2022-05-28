@@ -1,0 +1,8 @@
+<template>
+  <lightning-card title="new dispatch event">
+      <button onclick={showHandler}>Open Data</button>
+      <template if:true={status}>
+       <c-child-dispatch-event header={header} footer={footer} onclose={hideHandler}></c-child-dispatch-event>
+      </template>
+  </lightning-card>  
+</template>

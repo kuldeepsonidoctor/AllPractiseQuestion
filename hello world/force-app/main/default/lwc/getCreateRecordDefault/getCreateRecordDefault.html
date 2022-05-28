@@ -1,0 +1,26 @@
+<template>
+    <lightning-card title="Here Is The Data">
+        <table>
+            <thead>
+                <tr>
+                    <template for:each={tabelHeader} for:item="header">
+                        <th key={header}>
+                            {header}
+                        </th>
+                    </template>
+                </tr>
+            </thead>
+            <tbody>
+                <template for:each={tableBody} for:item="rowData">
+                    <tr key={rowData.apiName}>
+                     <td>{rowData.apiName}</td>
+                     <td>{rowData.dataType}</td>
+                     <td>{rowData.label}</td>
+                     <td>{rowData.lenght}</td>
+                     <td>{rowData.required}</td>
+                    </tr>
+                </template>
+            </tbody>
+        </table>
+    </lightning-card>
+</template>

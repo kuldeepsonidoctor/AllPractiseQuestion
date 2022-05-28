@@ -1,0 +1,266 @@
+{
+    "status": "ok",
+    "totalResults": 69,
+    "articles": [
+        {
+            "source": {
+                "id": null,
+                "name": "New York Times"
+            },
+            "author": "Zach Montague",
+            "title": "Ilya Lichtenstein Held in Bitcoin Case While Heather Morgan Is Given Bail - The New York Times",
+            "description": "A judge appeared more concerned by the flight risk posed by Ilya Lichtenstein than by his wife, Heather Morgan, in a case accusing them of a sweeping scheme to launder stolen cryptocurrency.",
+            "url": "https://www.nytimes.com/2022/02/14/us/politics/ilya-lichtenstein-heather-morgan-bitcoin-bail.html",
+            "urlToImage": "https://static01.nyt.com/images/2022/02/13/nyregion/14dc-cryptocoupl-top/merlin_201888621_42784d8c-2f00-4d2d-9e60-5bb142c1c44f-facebookJumbo.jpg",
+            "publishedAt": "2022-02-15T03:06:08Z",
+            "content": "The confiscation of the Bitcoin that remained in Mr. Lichtensteins wallet on Feb. 1, worth roughly $3.6 billion at the time, was the Justice Departments largest financial seizure ever, officials have… [+1442 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Investor's Business Daily"
+            },
+            "author": "Investor's Business Daily",
+            "title": "Dow Jones Futures: Volatile Stock Market Continues As Russia-Ukraine Crisis Accelerates - Investor's Business Daily",
+            "description": "Dow Jones futures were in focus after Monday's volatile stock market action.",
+            "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-volatile-stock-market-continues-as-u-s-relocates-embassy-in-ukraine/",
+            "urlToImage": "https://www.investors.com/wp-content/uploads/2021/03/Stock-BullBearMarket-88-adobe.jpg",
+            "publishedAt": "2022-02-15T02:45:00Z",
+            "content": "Dow Jones futures were higher following Monday's volatile stock market action, as the U.S. relocated its embassy in Ukraine amid the ongoing Russia-Ukraine crisis. Arista Networks (ANET) and Continen… [+7346 chars]"
+        },
+        {
+            "source": {
+                "id": "breitbart-news",
+                "name": "Breitbart News"
+            },
+            "author": "James P. Pinkerton",
+            "title": "Pinkerton: Biden’s Great Reset Goes Through His ‘Woke’ Federal Reserve Nominees - Breitbart",
+            "description": "Joe Biden aims to pursue his climate agenda via the assets of American banks by stacking the Federal Reserve with \"woke\" officials.",
+            "url": "https://www.breitbart.com/economy/2022/02/14/pinkerton-bidens-great-reset-goes-through-his-woke-federal-reserve-nominees/",
+            "urlToImage": "https://media.breitbart.com/media/2022/02/Lisa-Cook-Sarah-Bloom-Raskin-Philip-Jefferson-Getty-640x335.jpg",
+            "publishedAt": "2022-02-15T01:24:39Z",
+            "content": "In his Build Back Better (BBB) legislation, President Joe Biden wanted to spend $570 billion over the next decade on green causes, mostly focused on climate change. Fortunately, that bill seems to be… [+18200 chars]"
+        },
+        {
+            "source": {
+                "id": "cnn",
+                "name": "CNN"
+            },
+            "author": "Joe Sutton, Sonnet Swire and Amir Vera, CNN",
+            "title": "An American Airlines flight attendant hit an 'unruly passenger' in the head with a coffee pot as he tried to open the plane's exit door - CNN",
+            "description": "An American Airlines flight was diverted to Kansas City International Airport in Missouri on Sunday afternoon because of \"an unruly passenger,\" the airline said in a statement.",
+            "url": "https://www.cnn.com/2022/02/13/us/american-airlines-flight-diverted-kansas-city/index.html",
+            "urlToImage": "https://cdn.cnn.com/cnnnext/dam/assets/220213185818-american-airlines-diverted-ugc-twitter-super-tease.jpg",
+            "publishedAt": "2022-02-15T01:06:00Z",
+            "content": null
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "BBC News"
+            },
+            "author": "https://www.facebook.com/bbcnews",
+            "title": "Roblox: The children's game with a sex problem - BBC News",
+            "description": "A BBC investigation has found virtual sex parties are taking place in a popular online children’s game.",
+            "url": "https://www.bbc.com/news/technology-60314572",
+            "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/153F5/production/_123192078_724e35f5-c7bd-493c-ab43-fa85abb35ea8.png",
+            "publishedAt": "2022-02-15T00:48:22Z",
+            "content": "By James Clayton &amp; Jasmin DyerBBC News\r\nImage caption, Screengrab from a Roblox 'Condo'\r\nWARNING: THIS ARTICLE CONTAINS TEXT AND IMAGES OF A SEXUAL NATURE. \r\nA naked man, wearing just a dog colla… [+4434 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "MarketWatch"
+            },
+            "author": "Jeremy C. Owens",
+            "title": "Elon Musk gave 5 million Tesla shares to charity after teasing possible donation to fight world hunger - MarketWatch",
+            "description": "Tesla chief executive began gifting shares to undisclosed charity four days after UN World Food Program responded to his public challenge to detail what the group would do with $6 billion; WFP declines to comment",
+            "url": "https://www.marketwatch.com/story/elon-musk-gave-more-than-5-million-tesla-shares-to-charity-after-teasing-possible-donation-to-fight-world-hunger-11644885144",
+            "urlToImage": "https://images.mktw.net/im-433977/social",
+            "publishedAt": "2022-02-15T00:32:00Z",
+            "content": "Tesla Inc. Chief Executive Elon Musk donated more than 5 million Tesla shares in November, days after the U.N. World Food Program outlined a plan to potentially use a $6 billion donation from the wor… [+3399 chars]"
+        },
+        {
+            "source": {
+                "id": "financial-times",
+                "name": "Financial Times"
+            },
+            "author": null,
+            "title": "Buffett bought $1bn stake in Activision weeks before Microsoft deal - Financial Times",
+            "description": "Berkshire Hathaway discloses holding of video games maker in securities filing",
+            "url": "https://www.ft.com/content/df83a28f-4d65-483f-acc9-97466c120e91",
+            "urlToImage": "https://www.ft.com/__origami/service/image/v2/images/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2Fd73b1368-1f18-412e-a2d9-2b1ab1ee7b78.jpg?source=next-opengraph&fit=scale-down&width=900",
+            "publishedAt": "2022-02-14T23:47:50Z",
+            "content": "Warren Buffett’s Berkshire Hathaway purchased a nearly $1bn stake in Activision Blizzard in the fourth quarter of 2021, weeks before the video game maker agreed to sell itself to Microsoft for $75bn.… [+2643 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "CoinDesk"
+            },
+            "author": "James Rubin, Damanick Dantes",
+            "title": "First Mover Asia: Bitcoin Finds Firm Footing Above $42K - CoinDesk",
+            "description": "Investors continue to monitor the escalating tensions on the Ukrainian border as well as this week's Producer Price Index report.",
+            "url": "https://www.coindesk.com/markets/2022/02/14/first-mover-asia-bitcoin-finds-firm-footing-above-42k/",
+            "urlToImage": "https://www.coindesk.com/resizer/IGW4CYbJHZuy1p-q44K-R-51JxY=/1200x628/center/middle/cloudfront-us-east-1.images.arcpublishing.com/coindesk/7V6CDDDGRBGFZC3YSLQH6GLW4A.jpg",
+            "publishedAt": "2022-02-14T23:32:00Z",
+            "content": "\"After evaluating dozens of protocols, I believe that the most desirable form of defensibility is usefulness that cannot be easily forked by a competitive project.\" (Pillar VC Principal Parker McKee … [+1027 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "YouTube"
+            },
+            "author": null,
+            "title": "Demand causing Austin metro rents to soar | KVUE - KVUE",
+            "description": "The Statesman reported that this high demand drove monthly rates up by an average of 15% – or about $200 per month – in 2021.STORY: https://www.kvue.com/arti...",
+            "url": "https://www.youtube.com/watch?v=iuPBkjueJqE",
+            "urlToImage": "https://i.ytimg.com/vi/iuPBkjueJqE/maxresdefault.jpg",
+            "publishedAt": "2022-02-14T23:26:43Z",
+            "content": null
+        },
+        {
+            "source": {
+                "id": "ars-technica",
+                "name": "Ars Technica"
+            },
+            "author": "Jon Brodkin",
+            "title": "IBM exec called older workers “dinobabies” who should go “extinct,” lawsuit says - Ars Technica",
+            "description": "IBM says \"dinobabies\" comment \"does not reflect company practices or policies.\"",
+            "url": "https://arstechnica.com/tech-policy/2022/02/ibm-exec-called-older-workers-dinobabies-who-should-go-extinct-lawsuit-says/",
+            "urlToImage": "https://cdn.arstechnica.net/wp-content/uploads/2022/02/Dinosaurs-760x380.jpg",
+            "publishedAt": "2022-02-14T23:21:12Z",
+            "content": "Enlarge/ Earl Sinclair and Baby Sinclair (not actual IBM employees).\r\n80 with 58 posters participating\r\nA former high-level IBM executive wrote an internal message calling older workers \"dinobabies\" … [+3253 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "WGHP FOX 8 Greensboro"
+            },
+            "author": "Delaney Keppner, Nexstar Media Wire",
+            "title": "Ice cream recalled in 9 states due to possible listeria contamination - WGHP FOX8 Greensboro",
+            "description": "The affected ice cream was distributed in retail stores in New York, Massachusetts, Connecticut, Rhode Island, Vermont, Louisiana, Florida, Texas, and New Hampshire.",
+            "url": "https://myfox8.com/news/ice-cream-recalled-in-9-states-due-to-possible-listeria-contamination/",
+            "urlToImage": "https://myfox8.com/wp-content/uploads/sites/17/2022/02/GettyImages-697067872.jpg?w=1280",
+            "publishedAt": "2022-02-14T23:01:09Z",
+            "content": "NEW YORK (WWTI) Ice cream products that were sold in multiple states have been recalled due to potential listeria contamination. \r\nAccording to the United States Food and Drug Administration, The Roy… [+1978 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Electrek"
+            },
+            "author": null,
+            "title": "Toyota releases more images of ‘possible’ new Lexus electric sports cars with ‘430 miles’ of range - Electrek.co",
+            "description": "Toyota has released additional images of “possible” new Lexus electric sports vehicles with “430 miles” of range. However, the automaker is using extremely vague language about those vehicles. After falling behind in bringing battery-electric vehicles to mark…",
+            "url": "https://electrek.co/2022/02/14/toyota-images-possible-new-lexus-electric-sports-cars/",
+            "urlToImage": "https://i0.wp.com/electrek.co/wp-content/uploads/sites/3/2022/02/20211214_BEV_03_2-e1644877114710.jpg?resize=1200%2C628&quality=82&strip=all&ssl=1",
+            "publishedAt": "2022-02-14T22:42:00Z",
+            "content": "Toyota has released additional images of “possible” new Lexus electric sports vehicles with “430 miles” of range. However, the automaker is using extremely vague language about those vehicles.\r\nAfter… [+1874 chars]"
+        },
+        {
+            "source": {
+                "id": "the-wall-street-journal",
+                "name": "The Wall Street Journal"
+            },
+            "author": "Dana Cimilluca, Cara Lombardo",
+            "title": "Intel Nears Roughly $6 Billion Deal to Buy Tower Semiconductor - The Wall Street Journal",
+            "description": "U.S. semiconductor giant continues ambitious push to expand its manufacturing operations",
+            "url": "https://www.wsj.com/articles/intel-near-roughly-6-billion-deal-to-buy-tower-semiconductor-11644876391",
+            "urlToImage": "https://images.wsj.net/im-486018/social",
+            "publishedAt": "2022-02-14T22:41:00Z",
+            "content": "Intel Corp. is close to a deal to buy Israeli chip company Tower Semiconductor Ltd. for nearly $6 billion, according to people familiar with the matter, bolstering a plan to make more chips for other… [+111 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "CleanTechnica"
+            },
+            "author": "Jo Borrás",
+            "title": "George Soros Placed $2 Billion Loser Bet On Rivian - CleanTechnica",
+            "description": "George Soros Placed $2 Billion Bet On Rivian last quarter that has lost more than 40% of its initial value (so far).",
+            "url": "https://cleantechnica.com/2022/02/14/george-soros-placed-2-billion-loser-bet-on-rivian/",
+            "urlToImage": "https://cleantechnica.com/files/2022/02/soros_MAIN.jpg",
+            "publishedAt": "2022-02-14T22:35:00Z",
+            "content": "Billionaire investor, philanthropist, and noted QAnon/GOP boogeyman George Soros bought a $2 billion stake in electric truck startup Rivian in the quarter ended Dec. 31, securities filings showed Fri… [+3341 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "CNBC"
+            },
+            "author": "Taylor Locke",
+            "title": "'To the moon': You probably saw the crypto Super Bowl ads—here's what to know before buying in on the hype - CNBC",
+            "description": "While watching the Super Bowl, you probably saw some interesting advertisements by cryptocurrency companies, but here's what to know before buying in.",
+            "url": "https://www.cnbc.com/2022/02/14/what-to-know-about-crypto-before-buying-into-super-bowl-ads.html",
+            "urlToImage": "https://image.cnbcfm.com/api/v1/image/107014566-1644616814877-gettyimages-1368092751-ldn-l-sb-field-0202-02-bm.jpeg?v=1644617451",
+            "publishedAt": "2022-02-14T22:24:12Z",
+            "content": "While watching the Super Bowl, you probably saw some interesting advertisements by cryptocurrency companies like FTX, eToro and Crypto.com, among others, touting crypto to the masses.\r\nCoinbase, for … [+5267 chars]"
+        },
+        {
+            "source": {
+                "id": "reuters",
+                "name": "Reuters"
+            },
+            "author": null,
+            "title": "As markets churn over Russia-Ukraine conflict, history shows fleeting impact - Reuters",
+            "description": "Worries over a potential Russian invasion into Ukraine could fuel stock weakness over the short-term, but most U.S. market fallout related to geopolitics is likely to be short-lived, if history is any guide.",
+            "url": "https://www.reuters.com/markets/europe/markets-churn-over-russia-ukraine-conflict-history-shows-fleeting-impact-2022-02-14/",
+            "urlToImage": "https://www.reuters.com/resizer/vdunkH2xg3Obdaq2wtFSq34YOaQ=/1200x628/smart/filters:quality(80)/cloudfront-us-east-2.images.arcpublishing.com/reuters/A5JG3RWNUJP47K36QT63ZCIKBM.jpg",
+            "publishedAt": "2022-02-14T22:19:00Z",
+            "content": "NEW YORK, Feb 14 (Reuters) - Worries over a potential Russian invasion into Ukraine could fuel stock weakness over the short-term, but most U.S. market fallout related to geopolitics is likely to be … [+2867 chars]"
+        },
+        {
+            "source": {
+                "id": "bloomberg",
+                "name": "Bloomberg"
+            },
+            "author": null,
+            "title": "Levi Brand Boss Exits After Dispute Over School-Mask Opposition - Bloomberg",
+            "description": null,
+            "url": "https://www.bloomberg.com/tosv2.html?vid=&uuid=9441122c-8e1b-11ec-851d-4242706a5270&url=L25ld3MvYXJ0aWNsZXMvMjAyMi0wMi0xNC9sZXZpLWJyYW5kLXByZXNpZGVudC1leGl0cy1yZXRhaWxlci1hZnRlci1kaXNwdXRlLW92ZXItcG9saXRpY3M=",
+            "urlToImage": null,
+            "publishedAt": "2022-02-14T21:57:51Z",
+            "content": "To continue, please click the box below to let us know you're not a robot."
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "CNBC"
+            },
+            "author": "Fred Imbert",
+            "title": "Stocks making the biggest moves after the bell: Avis Budget, Arista Networks & more - CNBC",
+            "description": "These are the stocks posting the largest moves after the bell Monday.",
+            "url": "https://www.cnbc.com/2022/02/14/stocks-making-the-biggest-moves-after-the-bell-avis-budget-arista-networks-more.html",
+            "urlToImage": "https://image.cnbcfm.com/api/v1/image/106867196-1618266345524-gettyimages-1312177340-dsc03424_2021041232329278.jpeg?v=1644875117",
+            "publishedAt": "2022-02-14T21:57:27Z",
+            "content": "Check out the companies making headlines after the bell Monday:\r\nAvis Budget Avis shares dipped slightly even after the car rental company posted a quarterly profit that beat analyst expectations. Th… [+794 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Decrypt"
+            },
+            "author": "Jeff Benson",
+            "title": "What the BlockFi SEC Settlement Means for Bitcoin and Crypto Lending - Decrypt",
+            "description": "The company has been paying high yields to customers who store Bitcoin or other cryptocurrencies in its BlockFi Interest Accounts.",
+            "url": "https://decrypt.co/92930/what-blockfi-sec-settlement-means-bitcoin-crypto-lending",
+            "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2021/07/BlockFi-app-e1627515349116-gID_1.jpeg",
+            "publishedAt": "2022-02-14T21:52:01Z",
+            "content": "In brief\r\n<ul><li>BlockFi has agreed to pay a $100 million settlement with the SEC and 32 states.</li><li>The company says it has a path forward to create and register a similar product.</li></ul>\r\nC… [+5375 chars]"
+        },
+        {
+            "source": {
+                "id": "the-wall-street-journal",
+                "name": "The Wall Street Journal"
+            },
+            "author": "Susan Pulliam, Juliet Chung",
+            "title": "Regulators Probe Block Trading at Morgan Stanley, Goldman, Other Wall Street Firms - The Wall Street Journal",
+            "description": "SEC, Justice Department investigate large share sales, communications between banks, hedge funds",
+            "url": "https://www.wsj.com/articles/regulators-probe-block-trading-at-morgan-stanley-goldman-other-wall-street-firms-11644875448",
+            "urlToImage": "https://images.wsj.net/im-485988/social",
+            "publishedAt": "2022-02-14T21:50:00Z",
+            "content": "Federal investigators are probing the business of block trading on Wall Street, examining whether bankers may have improperly tipped hedge-fund clients in advance of large share sales, according to p… [+386 chars]"
+        }
+    ]
+}

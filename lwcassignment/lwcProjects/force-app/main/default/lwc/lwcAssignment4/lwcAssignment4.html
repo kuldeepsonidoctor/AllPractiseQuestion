@@ -1,0 +1,142 @@
+<template>
+    <table class="slds-table slds-table_cell-buffer slds-table_bordered slds-table_col-bordered"
+        aria-labelledby="element-with-table-label other-element-with-table-label">
+        <tbody>
+            <template for:each={accList.data} for:item="accData">
+                <tr class="slds-hint-parent" key={accData.Id}>
+                    <th data-label="Account Name" scope="row">
+                        <div class="slds-truncate" title="Cloudhub">
+                            {accData.Name}
+                        </div>
+                    </th>
+                    <td data-label="Edit Account">
+                        <div class="slds-truncate">
+                            <lightning-icon icon-name="action:edit" size="x-small" alternative-text="edit"
+                                title="Delete" data-item={accData.Id} onclick={editRecords}></lightning-icon>
+                        </div>
+                    </td>
+                    <td data-label="Delete Account">
+                        <div class="slds-truncate">
+                            <lightning-icon icon-name="action:delete" size="x-small" alternative-text="Delete"
+                                title="Delete" onclick={deleteRecords}
+                                data-item={accData.Id} ></lightning-icon>
+                        </div>
+                    </td>
+                    <td data-label="View Related List">
+                        <div class="slds-truncate">
+                            <lightning-icon icon-name="standard:related_list" alternative-text="Related List"
+                                title="Related List" onclick={viewRelatedList}
+                                data-item={accData.Id} ></lightning-icon>
+                        </div>
+                    </td>
+                </tr>
+            </template>
+        </tbody>
+    </table>
+    <section role="dialog" tabindex="-1" aria-labelledby="modal-heading-01" aria-modal="true"
+        class={modalClass}>
+        <div class="slds-modal__container">
+            <header class="slds-modal__header">
+            <button class="slds-button slds-button_icon slds-modal__close slds-button_icon-inverse"
+             onclick={closeBar}>
+                <lightning-icon icon-name="utility:close" variant="inverse" size="small"></lightning-icon>
+            </button>
+            </header>
+           
+            <div class="slds-modal__content slds-p-around_medium" id="modal-content-id-1">
+                <lightning-input type="text" label="Enter some Name" name="Name" value={newData.Name} onchange={updateData}></lightning-input>
+                <lightning-input type="number" label="Enter some Number" name="Phone" value={newData.Phone}
+                onchange={updateData}></lightning-input>
+                <lightning-input type="text" label="Enter some Ratings" name="Rating" value={newData.Rating}
+                onchange={updateData}></lightning-input>
+            </div>
+          
+               
+                <button class="slds-button slds-button_brand" onclick={updateRecords}>Update</button>
+           
+            
+        </div>
+    </section>
+    <div class={modalBackdrop} role="presentation"></div>
+    <!-- <template if:true={relatedShowModal}>
+    <section role="dialog" tabindex="-1" aria-labelledby="modal-heading-01" aria-modal="true"
+        class={relatedmodalClass}>
+        <div class="slds-modal__container">
+            <header class="slds-modal__header">
+            <button class="slds-button slds-button_icon slds-modal__close slds-button_icon-inverse"
+             onclick={relatedcloseBar}>
+                <lightning-icon icon-name="utility:close" variant="inverse" size="small"></lightning-icon>
+            </button>
+            </header>
+           
+            <div class="slds-modal__content slds-p-around_medium" id="modal-content-id-2">
+                <template if:true={relatedOpportunity}>
+                    
+                <table class="slds-table slds-table_cell-buffer slds-table_bordered slds-table_col-bordered"
+                aria-labelledby="element-with-table-label other-element-with-table-label">
+                
+                <tbody>
+                    <template for:each={relatedOpportunity} for:item="accOpp">
+                        <tr class="slds-hint-parent" key={accOpp.Id}>
+                            <th data-label="Opportunity Name" scope="row">
+                                <div class="slds-truncate" title="Cloudhub">
+                                    {accOpp.Name}
+                                </div>
+                            </th>
+                            <td data-label="Stagename">
+                                <div class="slds-truncate">
+                                    {accOpp.StageName}
+                                </div>
+                            </td>
+                            <td data-label="Amount">
+                                <div class="slds-truncate">
+                                   {accOpp.Amount}
+                                </div>
+                            </td>
+                            <td data-label="ClosedDate">
+                                <div class="slds-truncate">
+                                   {accOpp.CloseDate}
+                                </div>
+                            </td>
+                        </tr>
+                    </template>
+                </tbody>
+            </table>
+        </template>
+        
+            </div>
+          
+        </div>
+    </section>
+    <div class={relatedmodalBackdrop} role="presentation"></div>
+</template>-->
+<template if:true={relatedShowModal}>
+    <section role="dialog" tabindex="-1" aria-label="Meaningful description of the modal content" aria-modal="true" class="slds-modal slds-fade-in-open">
+        <div class="slds-modal__container">
+          <div class="slds-modal__content slds-p-around_medium slds-modal__content_headless" id="modal-content-id-2">
+            <lightning-card title="Get All Opportunity">
+                <lightning-datatable
+                key-field="Id"
+                data={relatedOpportunity}
+                columns={oppCol}
+               
+                ></lightning-datatable>
+             </lightning-card>
+             <lightning-card title="Get All Contacts">
+                <lightning-datatable
+                key-field="Id"
+                data={relatedContact}
+                columns={concol}
+               
+                ></lightning-datatable>
+             </lightning-card>
+          </div>
+          
+              
+          <button class="slds-button slds-button_brand" onclick={back}>Back</button>
+         
+        </div>
+      </section>
+      <div class="slds-backdrop slds-backdrop_open" role="presentation"></div>
+</template>
+</template>
